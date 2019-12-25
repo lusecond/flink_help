@@ -13,6 +13,7 @@ public class KafkaProducerTestCoutinue {
         Producer();
     }
 
+    //消息生成类
     public static void Producer() {
         String broker = "10.250.0.101:9092,10.250.0.102:9092,10.250.0.103:9092";
         String topic = "zzz";

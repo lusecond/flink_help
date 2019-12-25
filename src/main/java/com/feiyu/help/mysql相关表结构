@@ -1,0 +1,8 @@
+CREATE TABLE `employee_lwn` (
+  `id` bigint(20) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `password` varchar(50) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `salary` int(11) DEFAULT NULL,
+  `department` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
