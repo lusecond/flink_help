@@ -1,0 +1,33 @@
+package com.feiyu.gflow.test2.test
+
+case class Device(
+                    os: Int,
+                    v_day: Int,
+                    v_hour: Int,
+                    v_time: Int,
+                    did: String,
+                    screen: String,
+                    osv: String,
+                    hd: String,
+                    gv: String,
+                    idfa: String,
+                    imei: String,
+                    mac: String,
+                    channel_id: String,
+                    ip: String,
+                    sid: Int,
+                    isbreak: Int,
+                    ispirated: Int,
+                    adid: Int,
+                    wid: Int,
+                    country_id: Int,
+                    province_id: Int,
+                    city_id: Int,
+                    ext: String,
+                    original_channel_id: String,
+                    ng_time: Int,
+                    w_time: Int,
+                    country_iso_code: String,
+                    subdivision_iso_code: String,
+                    city_name: String
+                  )
