@@ -1,7 +1,6 @@
 package com.feiyu.help;
 
 import com.alibaba.fastjson.JSON;
-import com.feiyu.gflow.test2.test.Employee;
 import com.google.gson.Gson;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
